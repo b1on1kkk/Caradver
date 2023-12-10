@@ -30,3 +30,32 @@ Caradver can be rival for all renting oriented platforms. Caradver offers not on
 ### To confirm booking, click to the bell to open modal window and confirm booking. In result you will book car and get something like this:
 
 ![image](https://github.com/b1on1kkk/Caradver/assets/114521829/c63057bf-72d1-4ac7-a69a-63456319d7dd)
+
+## Getting Started
+
+### Run the database server:
+Run the local server to open PhpMyAdmin with your browser (In my case I use XAMPP control panel).
+
+Link to download XAMPP [XAMPP](https://www.apachefriends.org/)
+
+### Starting server:
+Open app and turn on Apache and MySQL buttons:
+
+![image](https://github.com/b1on1kkk/YandexEda-webpage/assets/114521829/23bf8433-1544-4c79-a785-7b32e9e761e1)
+
+Open [PhpMyAdmin](http://localhost/phpmyadmin/index.php) with your browser to see the result.
+
+### Importing database to PhpMyAdmin:
+Download sql file from database-sql-file folder and import it
+
+### Run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
