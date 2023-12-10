@@ -1,7 +1,7 @@
 # Caradver
 Caradver - is a web-application for booking and renting luxury cars in a few minutes!
 
-![image](https://github.com/b1on1kkk/Caradver/assets/114521829/99b94d5b-caec-4197-95a9-6e68cdc3d6d5)
+![image](https://github.com/b1on1kkk/Caradver/assets/114521829/13d4f385-8070-43e7-b221-fffe1d8136f5)
 
 ## Description
 Caradver can be rival for all renting oriented platforms. Caradver offers not only renting, but also possibility to book service in our location and repair you car!
