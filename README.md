@@ -9,12 +9,24 @@ Caradver can be rival for all renting oriented platforms. Caradver offers not on
 ## Tech stack
 MySQL database (phpmyadmin), Vite + React + TypeScript, Node JS + Express JS + TypeScript, Tailwind CSS
 
-## How and Where data is stored?
-Data is stored in MySQL database, where tables as users, booked_cars and booked_services are connected with each other.
-![image](https://github.com/b1on1kkk/Caradver/assets/114521829/9f21aa8b-8203-4574-8b04-0c0338634ae1)
+## Product Screenshoots
 
-users -> booked_cars connected with each other in one-to-one relationship, because in policy of our web-application
-you can book only one car.
+### Welcome page:
 
-users -> booked_service connected with each other in one-to-many relationship. In this way you can book more than one
-service.
+![image](https://github.com/b1on1kkk/Caradver/assets/114521829/da545427-9e83-4b3d-bfdb-6bbb825f6036)
+
+### Detailed information about choosen car:
+
+![image](https://github.com/b1on1kkk/Caradver/assets/114521829/683d01c2-b8cb-486a-b0d2-a195b3d1f96d)
+
+### Service page:
+
+![image](https://github.com/b1on1kkk/Caradver/assets/114521829/b5f5cfd9-6b96-4d9e-ac60-642ed5fc4c4e)
+
+### Settings page:
+
+![image](https://github.com/b1on1kkk/Caradver/assets/114521829/502f3209-88ad-4e58-813c-0455f6e6f7c0)
+
+### To confirm booking, click to the bell to open modal window and confirm booking. In result you will book car and get something like this:
+
+![image](https://github.com/b1on1kkk/Caradver/assets/114521829/c63057bf-72d1-4ac7-a69a-63456319d7dd)
