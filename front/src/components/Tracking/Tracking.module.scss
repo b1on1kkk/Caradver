@@ -1,0 +1,54 @@
+.donut {
+  width: 113px;
+  height: 75px;
+  position: relative;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  overflow: hidden;
+  color: rgb(34 197 94 / 1);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  box-sizing: border-box;
+  &:after {
+    content: "";
+    width: 110px;
+    height: 110px;
+    border: 20px solid;
+    border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgb(34 197 94 / 1)
+      rgb(34 197 94 / 1);
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    transform: rotate(calc(1deg * (-45 + 45 * 1.8)));
+    animation: fillAnimation 1s ease-in;
+  }
+}
+
+.detailed_inf {
+  @apply flex gap-8  mb-10;
+  animation: 0.1s ease-in-out 0s 1 normal none running expand;
+}
+
+@keyframes fillAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(100deg);
+  }
+}
+
+@keyframes expand {
+  0% {
+    transform: scale(1, 0.8);
+    opacity: 0.1;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+}

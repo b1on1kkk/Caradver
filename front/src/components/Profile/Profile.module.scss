@@ -1,0 +1,15 @@
+.header {
+  @apply flex flex-col gap-2 pb-6 border-b-1;
+}
+
+.main {
+  @apply pb-8 pt-8 flex flex-col gap-8 border-b-1;
+
+  .two_inputs {
+    @apply flex flex-col gap-3 flex-1;
+  }
+}
+
+.wrapper_input_styles {
+  @apply flex gap-4 px-4 py-3 w-full rounded-lg border-1;
+}

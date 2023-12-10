@@ -1,0 +1,22 @@
+.main_loader {
+  @apply w-280 h-350 rounded-lg bg-white shadow-lg opacity-70 p-5 flex gap-3 flex-col;
+
+  header,
+  footer {
+    * {
+      animation: skeleton-loading 0.8s linear infinite alternate;
+    }
+  }
+  main {
+    animation: skeleton-loading 0.8s linear infinite alternate;
+  }
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(198, 24%, 78%);
+  }
+  100% {
+    background-color: hsl(180, 33%, 99%);
+  }
+}

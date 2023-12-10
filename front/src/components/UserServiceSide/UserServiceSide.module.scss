@@ -1,0 +1,23 @@
+.button_tile {
+  @apply w-65 h-85 inline-flex rounded-md text-xl font-bold text-gray-500 bg-white items-center justify-center select-none hover:text-white hover:bg-blue-600 transition-all duration-200 ease-in;
+}
+
+.button_tile_active {
+  @apply w-65 h-85 inline-flex rounded-md text-xl font-bold text-white bg-blue-600 items-center justify-center select-none hover:text-white hover:bg-blue-600 transition-all duration-200 ease-in shadow-xl;
+}
+
+.button_tile_danger {
+  @apply w-65 h-85 inline-flex rounded-md text-xl font-bold text-white bg-red-500 items-center justify-center select-none hover:text-white hover:bg-red-600 transition-all duration-200 ease-in;
+}
+
+.button_tile_danger_active {
+  @apply w-65 h-85 inline-flex rounded-md text-xl font-bold text-white bg-red-700 items-center justify-center select-none hover:text-white hover:bg-red-700 transition-all duration-200 ease-in shadow-xl;
+}
+
+.button_tile_booked {
+  @apply w-65 h-85 inline-flex rounded-md text-xl font-bold text-white bg-green-500 items-center justify-center select-none hover:text-white hover:bg-green-600 transition-all duration-200 ease-in;
+}
+
+.button_tile_booked_active {
+  @apply w-65 h-85 inline-flex rounded-md text-xl font-bold text-white bg-green-700 items-center justify-center select-none hover:text-white hover:bg-green-700 transition-all duration-200 ease-in shadow-xl;
+}

@@ -1,0 +1,23 @@
+.aside {
+  @apply px-8 inline-flex w-60 pb-8 pt-4;
+
+  .aside_wrapper {
+    @apply flex h-full flex-col w-full gap-9;
+  }
+
+  .main {
+    @apply flex flex-col flex-1 gap-2;
+  }
+
+  .menu_tile {
+    @apply flex gap-2 p-2 w-full select-none hover:bg-gray-100 rounded-lg duration-300 ease-in transition-all;
+  }
+
+  .footer {
+    @apply flex flex-col gap-2;
+  }
+
+  .active_link {
+    @apply bg-gray-100 rounded-lg;
+  }
+}

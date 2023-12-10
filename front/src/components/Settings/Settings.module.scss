@@ -1,0 +1,7 @@
+.tab_is_not_active {
+  @apply text-lg text-gray-600 px-4 py-1 hover:bg-blue-100 rounded-lg duration-200;
+}
+
+.tab_is_active {
+  @apply text-lg px-4 py-1 bg-blue-100 rounded-lg duration-200;
+}

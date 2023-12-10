@@ -1,0 +1,19 @@
+.header {
+  @apply flex mt-7 h-20 items-center gap-28 mx-9;
+
+  .left_header_block {
+    @apply flex items-center gap-3 select-none;
+  }
+
+  .logo_wrapper {
+    @apply inline-flex py-2 px-2 bg-blue-600 rounded-lg;
+  }
+
+  .center_header_block {
+    @apply flex gap-4 px-4 py-3 w-80 bg-gray-100 rounded-lg;
+  }
+
+  .input_styles {
+    @apply w-full bg-gray-100 focus:outline-none;
+  }
+}
