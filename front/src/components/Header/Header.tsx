@@ -54,7 +54,7 @@ export default function Header() {
           <div className={styles.logo_wrapper}>
             <HeaderLogo />
           </div>
-          <h1 className="font-bold text-2xl">carabver</h1>
+          <h1 className="font-bold text-2xl">caradver</h1>
         </div>
       </Link>
       <div className="flex-1">
